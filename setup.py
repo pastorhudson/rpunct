@@ -9,6 +9,9 @@ from setuptools import find_packages, setup
 # with open("README.md", "r") as fh:
 #     long_description = fh.read()
 
+long_description = "Add punctuation to a string."
+
+
 with open("requirements.txt", "r") as fh:
     requirements = fh.readlines()
     requirements = [i.strip() for i in requirements]
